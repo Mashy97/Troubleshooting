@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kunintns.kafka_web_message.KafkaWebMessageApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-06-02T06:52:57" hostname="DESKTOP-3AIEEBN" time="0.52">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.kunintns.kafka_web_message.KafkaWebMessageApplicationTests" time="0.52"/>
+  <system-out><![CDATA[15:52:56.106 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.kunintns.kafka_web_message.KafkaWebMessageApplicationTests]: KafkaWebMessageApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:52:56.161 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.kunintns.kafka_web_message.KafkaWebMessageApplication for test class com.kunintns.kafka_web_message.KafkaWebMessageApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.0)
+
+2023-06-02T15:52:56.372+09:00  INFO 9304 --- [    Test worker] c.k.k.KafkaWebMessageApplicationTests    : Starting KafkaWebMessageApplicationTests using Java 17.0.7 with PID 9304 (started by computer in C:\Users\computer\IdeaProjects\kun\kafka_web_message)
+2023-06-02T15:52:56.373+09:00  INFO 9304 --- [    Test worker] c.k.k.KafkaWebMessageApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2023-06-02T15:52:57.216+09:00  INFO 9304 --- [    Test worker] c.k.k.KafkaWebMessageApplicationTests    : Started KafkaWebMessageApplicationTests in 0.962 seconds (process running for 1.598)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

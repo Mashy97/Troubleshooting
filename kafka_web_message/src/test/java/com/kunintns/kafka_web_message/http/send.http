@@ -1,0 +1,37 @@
+POST /user HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+
+{
+  "email": "js@cleancode.kr",
+  "password": "P@sswOrd"
+}
+
+###
+
+# curl -X POST "http://localhost:8080/send?topic=myTopic&message=myMessage"
+POST http://localhost:8080/send?topic=input100-topic&message=myMessage1255
+
+###
+POST /send HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+
+{
+  "email": "js@cleancode.kr",
+  "password": "P@sswOrd"
+}
+
+###
+
+# curl -X POST -H "Content-Type: application/json" -d '{"message":"Hello, Kafka!"}' http://localhost:8080/message
+POST http://localhost:8080/message
+Content-Type: application/json
+
+{
+  "message": "Hello, Kafka!"
+}
+
+###
+
+
