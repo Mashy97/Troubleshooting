@@ -1,0 +1,31 @@
+#Kafka Trouble Shooting
+
+23.06.16 JSON DATA CONVERT 오류
+
+이전 코드
+@Service
+public class KafkaConsumerService {
+    @KafkaListener(topics = "input100-topic", groupId = "topic")
+    public void consumeRecord(MessageVO message){
+        System.out.println("ID = " + message.getId());
+        System.out.println("position = " + message.getPosition());
+        System.out.println("longitude = " + message.getLongitude());
+        System.out.println("latitude = " + message.getLatitude());
+        System.out.println("latitude = " + message.getTime());
+    }
+}
+
+수정 코드
+@Service
+public class KafkaConsumerService {
+    @KafkaListener(topics = "input100-topic", groupId = "topic", containerFactory = "kafkaListener")
+    public void consumeRecord(MessageVO message){
+        System.out.println("ID = " + message.getId());
+        System.out.println("position = " + message.getPosition());
+        System.out.println("longitude = " + message.getLongitude());
+        System.out.println("latitude = " + message.getLatitude());
+        System.out.println("latitude = " + message.getTime());
+    }
+}
+
+KafkaListener 어노테이션에 containerFactory를 입력하여 JOSN DATA를 변환하지 못하는 오류 해결 완료
