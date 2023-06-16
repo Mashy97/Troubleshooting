@@ -1,6 +1,5 @@
-# 트러블 슈팅
+# 트러블 슈팅 발생 및 해결 Repository
 
-23.06.16
-- Kafka JSON Data Converter 오류
+
 
 
