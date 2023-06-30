@@ -16,14 +16,14 @@
   1. Kafka Cluster Issue(1)
   - Zookeeper Config 오류
   - ERROR Unexpected exception, exiting abnormally
-  - 진행 상황 [ ]
+  - [ ] 진행 상황 
   2. Kafka Cluster Issue(2)
   - Zookeeper Config 오류
   - Redirecting stderr to stdout : Permission denied 
-  - 현재 상황 [ ]
+  - [ ] 현재 상황 
   3. Kafka Connection Issue
   - Server Connection 오류
   - 다른 클라이언트에서 Kafka 서버에 연결 불가
-  - 현재 상황 [x] // 23.06.23 해결 완료
+  - [x] 현재 상황 // 23.06.23 해결 완료
      
 
