@@ -13,15 +13,15 @@
 # 트러블 슈팅
 - 최신 업데이트 : 23.06.30
 - 현재 트러블 슈팅 목록
-  1. [ ] Kafka Cluster Issue(1)
+  1. Kafka Cluster Issue(1)
   - Zookeeper Config 오류
   - ERROR Unexpected exception, exiting abnormally
   - 해결 진행 중 
-  2. [ ] Kafka Cluster Issue(2)
+  2. Kafka Cluster Issue(2)
   - Zookeeper Config 오류
   - Redirecting stderr to stdout : Permission denied 
   - 해결 진행 중 
-  3. [x] Kafka Connection Issue
+  3. Kafka Connection Issue
   - Server Connection 오류
   - 다른 클라이언트에서 Kafka 서버에 연결 불가
   - 23.06.23 해결 완료
